@@ -1,0 +1,90 @@
+#wrapper {
+    width: 100%;
+    height: 100%;
+    background: url("./img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-wrapper-background { 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.div-timer { 
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.carrot-item { 
+    width: 50px;
+    height: 50px;
+    background: url("./img/carrot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-50px,-50px);
+    cursor: pointer;
+}
+
+.bug-item { 
+    width: 50px;
+    height: 50px;
+    background: url("./img/bug.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-50px,-50px);
+    cursor: pointer;
+}
+
+.button-reload{ 
+    color:blanchedalmond;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px silver solid;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.div-remainingcount { 
+    color:blanchedalmond;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px silver solid;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 193px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
